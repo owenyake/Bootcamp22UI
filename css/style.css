@@ -16,7 +16,6 @@ body{
 
 
 .topTitle h1 {
-    padding: 75px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,8 +25,8 @@ body{
 }
 
 .topTitle h2{
-    padding: 20px 0px;
     display: flex;
+    padding-bottom: 1000px;
     justify-content: center;
     align-items: center;
     font-family:'Open Sans';
@@ -68,7 +67,7 @@ body{
 }
 
 .about h1{
-    padding: 100px 0px;
+    padding-top: 100px;
     display: inline-flexbox;
     justify-content: center;
     align-items: center;
@@ -76,7 +75,7 @@ body{
 }
 
 .about p {
-    padding: 100px 0px;
+    padding-bottom: 100px;
     font-weight: 300;
     font-size: 30px;
     display: flex;
@@ -85,8 +84,8 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-.skillsSection h2 {
-    padding: 100px 0px;
+.row h2 {
+    padding-bottom: 20px;
     display: inline-flexbox;
     justify-content: center;
     align-items: center;
@@ -95,7 +94,7 @@ body{
 }
 
 .skillsSection p {
-    padding: 50px;
+    padding-bottom: 25px;
     font-weight: 300;
     font-size: 25px;
     display: center;
@@ -103,15 +102,31 @@ body{
     align-items: center;
     background-color: rgb(255, 255, 255);
 }
-footer{
+.footer{
+    background-color: rgba(26, 26, 190, 0.635);
     margin-top: 100px;
     padding: 30px;
-    text-align: center;
-    background: var(--Primary-gradient-rev);
 }
 
 .btn-primary {
     width: fit-content;
    align-content: center;
     
+}
+
+.skillsSection {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.row {
+    padding-top: 20px;
+    padding-bottom: 100px;
+
 }
