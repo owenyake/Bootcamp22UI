@@ -131,8 +131,8 @@ body{
 .btn-primary {
     width: fit-content;
    align-content: center;
-    
 }
+
 
 .skillsSection {
     font-size: 40px;
@@ -146,23 +146,28 @@ body{
 }
 
 .contactBox {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-color: rgb(217, 217, 217);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px;
-    padding-top: 25px;
+    padding: 30px;
     gap: 10px;
+    border-radius: 5px;
 }
 .contactTitle {
     color: rgb(0, 0, 0);
     font-family: "Open Sans";
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 200;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .infoBox1 {
-    font-size: 14px; 
+    font-size: 14px;
+    display: inline; 
+    float: left;
 }
 
 .nameEntry {
@@ -175,6 +180,8 @@ body{
 
 .infoBox2 {
     font-size: 14px;
+    display: inline; 
+    float: right;
 }
 
 .emailEntry {
@@ -194,10 +201,42 @@ body{
     background-color: white;
     color: rgb(98, 98, 98);
     padding: 10px 20px;
-    height: fit-content;
-    width: 400px;
-    
+    height: 300px;
+    width: 75%;
 }
+
+.contactSubmit {
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#generate:hover {
+    transition: .5s;
+    background-color: #e59d16;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #generate:active {
+    transition: .1s;
+    background-color: #1d16e5;
+    transform: translateY(4px);
+  }
+  
+  @media screen and (min-width: 800px) {
+    #generate {
+      width: 200px;
+      height: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    #generate {
+      width: 200px;
+      height: 50px;
+    }
+  }
 
 
 .row {
