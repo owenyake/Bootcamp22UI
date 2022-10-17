@@ -76,7 +76,7 @@ body{
     height: 300px;
     object-fit: contain;
     padding: 0;
-    background: rgba(28, 24, 216, 0.73);
+    background: rgba(255, 255, 255, 0.73);
     
 }
 
@@ -144,6 +144,61 @@ body{
     align-items: center;
     background-color: rgb(255, 255, 255);
 }
+
+.contactBox {
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top: 25px;
+    gap: 10px;
+}
+.contactTitle {
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.infoBox1 {
+    font-size: 14px; 
+}
+
+.nameEntry {
+    background-color: white;
+    color: rgb(98, 98, 98);
+    padding: 10px 20px;
+    height: fit-content;
+    width: 400px;
+}
+
+.infoBox2 {
+    font-size: 14px;
+}
+
+.emailEntry {
+    background-color: white;
+    color: rgb(98, 98, 98);
+    padding: 10px 20px;
+    height: fit-content;
+    width: 400px;
+    
+}
+
+.infoBox3 {
+    font-size: 14px;
+}
+
+.messageEntry {
+    background-color: white;
+    color: rgb(98, 98, 98);
+    padding: 10px 20px;
+    height: fit-content;
+    width: 400px;
+    
+}
+
 
 .row {
     padding-top: 20px;
