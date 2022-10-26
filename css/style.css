@@ -16,6 +16,12 @@ body{
 .nav-link.active{
     color: var(--Secondary-dark);
 }
+.Navigation {
+    width: fit-content;
+    display:flex;
+    float: right;
+   margin-right: 50px;
+}
 
 
 
@@ -30,8 +36,8 @@ body{
     justify-content: center;
     align-items: center;
     font-family:'Open Sans';
-    font-weight: 500;
-    font-size: 80px;
+    font-weight: 400;
+    font-size: 100px;
 }
 
 .topTitle h2{
